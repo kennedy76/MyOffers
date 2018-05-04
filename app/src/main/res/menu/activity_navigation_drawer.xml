@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/myprofile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_bonusPoints"
+            android:icon="@drawable/bonous"
+            android:title="Bonous Points" />
+        <item
+            android:id="@+id/nav_usedOffers"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My Used Offers" />
+
+    </group>
+    <item android:title="                Log In/Out">
+        <menu>
+    <item
+        android:id="@+id/nav_logIn"
+        android:icon="@drawable/ic_menu_share"
+        android:title="LogoIn" />
+    <item
+        android:id="@+id/nav_logOut"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="LogOut" />
+        </menu>
+    </item>
+</menu>
